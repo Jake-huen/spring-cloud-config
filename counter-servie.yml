@@ -1,0 +1,5 @@
+ datasource:
+   driver-class-name:
+   url: jdbc:mysql://localhost:3306/counterdb
+   username: root
+   password: "{cipher}3d31725f63eda3265537754935f6974d332c46a9b1d3bbeac5d02a7109ca264d"
