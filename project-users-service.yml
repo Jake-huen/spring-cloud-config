@@ -13,4 +13,4 @@ token:
 counter_service:
   url: http://COUNTER-SERVICE/counter-service/%s/orders #http://127.0.0.1:8000/order-service/%s/orders
   exception:
-    orders_is_empty: There is no item
+    orders_is_empty: 주문내역이 없습니다.
