@@ -1,1 +1,17 @@
-target: "this is for test"
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: 
+
+token:
+  expiration_time: 86400000
+  secret: coffee
+
+counter_service:
+  # url: http://COUNTER-SERVICE/counter-service/%s/orders #http://127.0.0.1:8000/order-service/%s/orders
+  exception:
+    orders_is_empty: 주문내역이 없습니다.
+greeting:
+  하이하이
